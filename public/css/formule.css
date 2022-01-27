@@ -1,0 +1,48 @@
+.carte{
+    width: 330px;
+    height: 270px;
+    margin: 12px;
+    box-shadow: black;
+}
+
+.carte-B{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.titre{
+    font-weight: normal;
+    font-size: 40px;
+    padding: 15px;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.bouton{
+
+    background-color: #7CB2E1;
+    color: #f4f4f4;
+    border-radius: 60px;
+    border: none;
+    padding: 9px;
+}
+
+.c-titre{
+    font-weight: normal;
+    font-size: 20px ;
+}
+
+.price{
+    font-weight: normal;
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+@media only screen and (max-width: 700px){
+
+}

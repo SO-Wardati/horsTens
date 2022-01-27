@@ -1,0 +1,179 @@
+
+.welcome{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.welcome>p{
+    font-size: 13px;
+}
+
+h1{
+    color: #7CB2E1;
+    font-weight: 100;
+    font-size: 62px;
+    letter-spacing: 5px;
+}
+
+.citation{
+    background-color: #F4F4F4;
+    margin-top: 25px;
+}
+
+figure{
+    padding: 105px;
+}
+
+blockquote>p{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.stars>i{
+        color: #7CB2E1;
+        font-size: 27px;
+        padding: 10px;
+        font-weight: 100;
+        height: 87px;
+        width: auto;
+    }
+
+
+.services{
+    display: flex;
+    margin-top: 18px;
+    margin-right: 50px;
+    background-color: #F4F4F4;
+}
+
+.serviz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more, .liste-services, .stars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.liste-services>a>h3{
+    color: #e4a33c;
+    font-size: 30px;
+    padding: 10px;
+    letter-spacing: 5px;
+    text-align: center;
+    align-self: center;
+}
+
+.liste-services>a{
+    text-decoration: none;
+}
+
+.services>img{
+    margin-left: 105px;
+}
+
+#nom-service{
+    color: #7CB2E1;
+    font-size: 27px;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-justify: normal;
+
+}
+
+.gallery{
+    margin-top: 35px;
+}
+
+.more{
+    margin-bottom: 35px;
+    padding: 15px;
+}
+
+.more>h3{
+    color: #7CB2E1;
+    font-size: 30px;
+    padding: 10px;
+    letter-spacing: 5px;
+    margin-top: 25px;
+}
+
+.more>p{
+    overflow-wrap: break-word;
+    width: 60%;
+    height: 55%;
+    letter-spacing: 2px;
+}
+
+.more>span{
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.run{
+    width: 100%;
+    height: 30%;
+}
+
+.runs{
+    width: 100%;
+    height: 36%;
+}
+
+.runz{
+    width: 100%;
+    height: 28%;
+}
+
+@media only screen and (max-width: 700px){
+
+    h1{
+        color: #7CB2E1;
+        font-weight: 100;
+        font-size: 32px;
+    }
+
+    .services{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .services>img{
+        text-align: center;
+        margin: 0;
+        width: 100%;
+        height: 50%;
+    }
+
+    #nom-service{
+        color: #7CB2E1;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 100;
+
+    }
+
+    .more>p{
+        overflow-wrap: break-word;
+        width: 100%;
+        height: 70%;
+    }
+    .stars>i{
+        color: #7CB2E1;
+        font-size: 27px;
+        font-weight: 100;
+        padding: 8px;
+        height: 81px;
+        width: auto;
+    }
+
+}

@@ -1,0 +1,212 @@
+
+
+
+
+.conteneur-1{
+    display: flex;
+    margin: 15px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.conteneur-2{
+    display: flex;
+    margin: 15px;
+    padding: 10px;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+.assis{
+    overflow-wrap: break-word;
+    width: 500px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 25px;
+    margin-left: 150px;
+
+}
+
+.assiz{
+    overflow-wrap: break-word;
+    width: 500px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 25px;
+    margin-right: 150px;
+    background-color: #f4f4f4;
+
+}
+
+.assiz>h3{
+    color: #7CB2E1;
+    font-size: 27px;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 3px;
+    text-justify: normal;
+    margin-top: 10px;
+}
+
+.image{
+    width: 70%;
+    height:auto;
+    text-align: center;
+    filter: drop-shadow(18px 20px);
+    padding: 15px;
+}
+
+.bouton>a{
+    text-decoration: none;
+    color: #7CB2E1;
+}
+
+.bouton:hover{
+    background-color: #7CB2E1;
+}
+
+.bouton>a:hover{
+    color: whitesmoke;
+}
+
+.bouton{
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px;
+    color: #7CB2E1;
+    border:1px solid #7CB2E1;
+    margin-top: 10px;
+}
+.assis>h3{
+    color: #7CB2E1;
+    font-size: 27px;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 3px;
+    text-justify: normal;
+    margin-top: 10px;
+}
+
+.assis>p, .assiz>p{
+    padding: 5px;
+    margin: 5px;
+}
+
+.bouton-2{
+    visibility: hidden;
+    margin-top: 10px;
+}
+
+.ancre{
+    margin: 25px;
+    text-align: center;
+}
+
+.ancre>a{
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid #7CB2E1;
+    border-radius: 50px;
+    color: #7CB2E1;
+
+
+}
+
+.bouton-2{
+    margin: 35px;
+    visibility: initial;
+    border-radius: 50px;
+    border: 1px solid #7CB2E1;
+    background-color: white;
+    padding: 10px;
+    visibility:hidden ;
+}
+.bouton-2:hover{
+    background-color: #7CB2E1;
+}
+
+.bouton-2>a{
+    text-decoration: none;
+    color: #7CB2E1;
+}
+
+.bouton-2>a:hover{
+    color: whitesmoke;
+}
+
+.boite{
+    margin: 55px;
+}
+
+@media only screen and (max-width: 700px){
+    .assis{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 80%;
+        margin-bottom: 15px;
+    }
+    .conteneur-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bouton{
+visibility: hidden;
+    }
+
+    .bouton-2{
+        margin-top: 35px;
+        visibility: initial;
+    }
+    .bouton-2:hover{
+        background-color: #7CB2E1;
+    }
+
+    .bouton-2>a:hover{
+        color: whitesmoke;
+    }
+
+    .imag{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:0;
+        margin: 0;
+    }
+
+    .assiz{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 80%;
+        margin-bottom: 15px;
+    }
+    .conteneur-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 105%;
+        width: auto;
+    }
+
+
+}

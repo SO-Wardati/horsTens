@@ -1,0 +1,22 @@
+.formula{
+    padding: 15px;
+}
+
+.contact{
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.bouton{
+    padding:15px;
+    border-radius: 40px;
+    background-color: #7CB2E1;
+    color: #f4f4f4;
+}
+
+img{
+    margin-top: 10;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px ;
+}
