@@ -68,7 +68,7 @@
         <div class="serv">
         @foreach ($massages as $massage )
         <p class="animate__animated  animate__backInRight animate__delay-1s" id="nom-service">{{$massage->name}}</p>
-            {{--<p class="animate__animated  animate__backInLeft animate__delay-2s">{{$massage->description}}</p>--}}
+        <p class="animate__animated  animate__backInLeft animate__delay-2s">{{$massage->slogan}}</p>
         @endforeach
         </div>
     </div>
